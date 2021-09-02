@@ -12,17 +12,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
     - python >=3.7
     - pip
-    - pythonocc-core =7.4
+    - pythonocc-core >=7.4
   run:
     - python >=3.7
-    - pythonocc-core =7.4
+    - pythonocc-core >=7.4
     - numpy >=1.14
     - scipy
 
