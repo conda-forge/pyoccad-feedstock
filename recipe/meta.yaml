@@ -1,6 +1,6 @@
 {% set name = "pyoccad" %}
-{% set version = "0.4.1" %}
-{% set pypi_version = "0.4.1-3" %}
+{% set version = "0.4.2" %}
+{% set pypi_version = "0.4.2" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ pypi_version }}.tar.gz
-  sha256: 47b38a0d1c85a82770cf109c5b6e60346fab30ad8d2a444e5850b2e7faf72703
+  sha256: 19119009dbf29a1c46b2d8fa472e12b84f067ece641da7d3c6278e9b7baf5a38
 
 build:
   noarch: python
@@ -43,3 +43,4 @@ extra:
   recipe-maintainers:
     - adriendelsalle
     - trungleduc
+    - elac-safran

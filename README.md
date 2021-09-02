@@ -120,5 +120,6 @@ Feedstock Maintainers
 =====================
 
 * [@adriendelsalle](https://github.com/adriendelsalle/)
+* [@elac-safran](https://github.com/elac-safran/)
 * [@trungleduc](https://github.com/trungleduc/)
 
