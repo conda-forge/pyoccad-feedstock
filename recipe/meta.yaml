@@ -1,14 +1,13 @@
 {% set name = "pyoccad" %}
-{% set version = "0.5.0" %}
-{% set pypi_version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ pypi_version }}.tar.gz
-  sha256: 2bc0ec272aeb5db70bdc7e009507f2450b2b22fe037708d472481348071c639e
+  url: https://gitlab.com/cosapp/pyoccad/-/archive/v{{ version }}/pyoccad-v{{ version }}.tar.gz
+  sha256: 1ac6608a0bf45c3eb8330d51e77a6d9c27320665db4d38425d8cac8e76d91c88
 
 build:
   noarch: python
